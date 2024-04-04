@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Redesign Handin Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>OVERVIEW:</h1>
+    <p>
+      In highly competitive industries, the usability and efficiency of certain
+      features on a company website can make vast differences on user
+      engagement, experience, and company profitability. These seemingly small
+      variations across interface features can build into substantial swings
+      that ultimately push companies with better online user experiences towards
+      having larger market shares.
+    </p>
+    <p>
+      Therefore, even when developing common features of a website, it is
+      important to analyze the pros and cons of existing websites that have
+      these features via a Competitive Analysis, synthesizing the best aspects
+      across them to build out something that maximizes accessibility and
+      usability.
+    </p>
+    <p>
+      In this project, we specifically look at websites that have aggregators,
+      such as shopping carts, equipped with a favoriting function.
+    </p>
+    <h1>COMPETITIVE ANALYSIS:</h1>
+    <p>
+      To inform which features our aggregator should include in its design, we
+      first conduct a Competitive Analysis using three different websites/apps
+      across six different factors.
+    </p>
+    <h2>Websites Used:</h2>
+    <p>
+      The first website used was the CBS Sports App, which is an app that keeps
+      track of daily scores and news articles from all different sports and
+      allows users to favorite or aggregate their favorite teams.
+    </p>
+    <p>
+      CBS Sports App URL:
+      <a href="https://www.cbssports.com/mobile"
+        >https://www.cbssports.com/mobile</a
+      >
+    </p>
+    <img src="assets/cbs.png" alt="" />
+    <p>
+      The second website used was the Gmail website, which is Google's email
+      website and allows users to star or aggregate important emails.
+    </p>
+    <p>
+      Gmail URL:
+      <a href="https://mail.google.com/mail/u/0/"
+        >https://mail.google.com/mail/u/0/</a
+      >
+    </p>
+    <img src="assets/gmail.png" alt="" />
+    <p>
+      The last website used was the Spotify app, which is an app that enables
+      users to stream all different kinds of music and allows users to like or
+      aggregate their favorite songs.
+    </p>
+    <p>
+      Spotify URL:
+      <a href="https://open.spotify.com/">https://open.spotify.com/</a>
+    </p>
+    <img src="assets/spotify.png" alt="" />
+    <h2>Factors Analyzed:</h2>
+    <p>The following factors were used in the Competitive Analysis:</p>
+    <ul>
+      <li>Ease of favoriting new items</li>
+      <li>Clarity of favoriting symbols</li>
+      <li>Ease of accessing/isolating favorited items</li>
+      <li>Ease of distinguishing between favorited and non-favorited items</li>
+      <li>Ease of removing favorited items</li>
+      <li>
+        Ease of sorting/categorizing favorited items by specific attributes
+      </li>
+    </ul>
+    <h2>Competitive Comparison Chart:</h2>
+    <p>The resulting Competitive Comparison Chart is shown:</p>
+    <img src="assets/chart.png" alt="" />
+    <h2>Summary of Competitive Analysis:</h2>
+    <p>
+      For the CBS Sports App, it was most successful at clearly delineating
+      between favorited and non-favorited teams on the homepage, with all
+      favorited teams' scores and news appearing at the very top of the screen
+      and all other scores appearing below that. In this way, users have a very
+      easy time finding the relevant information for their favorite teams any
+      time they open the app. However, the CBS Sports App was least successful
+      at making the favoriting/unfavoriting process clear and intuitive for
+      users. Specifically, in order to favorite a new team, users either have to
+      navigate to a right, bottom tab labeled as “More” or click on a current
+      score, then click on the specific team, and finally star it in the top
+      right corner. This long user flow results in poor memorability for users
+      who might only add a new favorite team every few months. There is also no
+      way to “sort” the favorited teams in any particular order, which makes the
+      UI cluttered if users favorite a lot of teams that are all in-season at
+      the same time.
+    </p>
+    <p>
+      For Gmail, it was successful across the majority of the factors analyzed
+      above, with the starring of emails being: easy to visually distinguish
+      against other non-starred emails, simple and efficient to favorite or
+      unfavorite (a single click), and straightforward to sort or categorize
+      within the starred emails tab. Gmail's least successful factor included
+      the use of a less intuitive star icon compared to the favoriting symbols
+      employed by the other competitors in the analysis. It's also not as
+      immediately obvious where the starred tab is on the screen.
+    </p>
+    <p>
+      For Spotify, the main category it succeeded at was in its use of a clear
+      purple heart symbol for denoting how to favorite songs, which provides
+      good color contrast relative to the darker background of the app and
+      serves as a metaphor for when people like something in real life. This
+      good color contrast also helps users immediately see the album for all
+      Liked Songs on the homepage. However, overall, Spotify really struggled in
+      the Competitive Comparison Analysis, with it being difficult to both
+      distinguish between liked and regular songs within albums and to find the
+      button to like/unlike a song. Spotify as an app is more centered around
+      creating new albums that share a coherent theme, rather than having a
+      strict like/unlike separation across songs, but it still struggles in some
+      of the basic factors looked at above.
+    </p>
+    <h2>Features to Implement:</h2>
+    <p>
+      I would definitely like to implement a clear visual distinction between
+      favorited and non-favorited items. Specifically, the hierarchical
+      distinction that the CBS Sports App uses I found was very effective and
+      useful from a user perspective. I also liked how easy it was to
+      star/favorite items in Gmail as it was the only interface that required a
+      single click to favorite or unfavorite, and I will definitely make the
+      favoriting feature similarly accessible in my design. Finally, Gmail also
+      was the only interface that allowed users to sort the favorited items in a
+      variety of ways, providing greater flexibility to users without cluttering
+      the interface. In my design, I plan on providing a handful of common ways
+      users can filter/sort the favorited items.
+    </p>
+    <h1>IMPLEMENTATION:</h1>
+    <p>
+      Leveraging the takeaways from the Competitive Analysis above, I decided to
+      create an aggregator themed around restaurants located around Brown
+      University's campus. Specifically, the website allows users to filter the
+      listed restaurants based on the available food options (i.e. vegan,
+      vegetarian, or seafood options) and distance to campus, sort them in
+      increasing order of average entree price, and favorite/unfavorite them so
+      that they appear at the top/bottom. These tools are aimed at helping
+      students more efficiently narrow down their next spot to eat, so that they
+      can satisfy their various dietary and accessibility needs/desires.
+      Finally, there is also a reset button on the website that allows users to
+      clear out any set filters/sorting and view the full range of restaurants
+      on the website.
+    </p>
+    <p>Link to Deployed Vercel App: development-pink.vercel.app</p>
+
+    <h1>TAKEAWAYS:</h1>
+    <p>
+      By first conducting a competitive analysis looking at how existing
+      websites have designed their aggregators, I was able to evaluate the
+      subtle, and often overlooked, differences between them before deciding on
+      aspects of each I wanted to incorporate into my own implementation. I was
+      surprised to find that taking this initial step to plan out what features
+      I wanted to include in my design significantly expedited the development
+      process and made the final product much better. Even though the
+      pre-development stages of this project didn't necessarily involve drawing
+      up lo-fi wireframes or hi-fi prototypes, having some form of visualization
+      pertaining to different aspects of the aggregator was incredibly helpful.
+      Ultimately, in particularly saturated industries with heavy online
+      dependence, conducting a Competitive Analysis can serve as a crucial
+      differentiating factor for companies when developing their various
+      features.
+    </p>
+  </body>
+</html>
